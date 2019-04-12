@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "dev.entao.utilapp"
+        applicationId "dev.entao.applog"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
@@ -26,18 +26,5 @@ dependencies {
     implementation  'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 
-//    implementation 'dev.entao:log:2.0.0'
-
-//    implementation 'dev.entao:ui:1.1.6.2711'
-//    implementation 'dev.entao:qrlib:1.0.4.2711'
-//    implementation 'dev.entao:gaode:1.0.4.2711'
-//    implementation project(':loglib')
-//    implementation project(':appbase')
-//    implementation project(':base')
-//    implementation project(':gaode')
-//    implementation project(':json')
-//    implementation project(':log')
-//    implementation project(':qr')
-//    implementation project(':sql')
-//    implementation project(':pinyin')
+    implementation project(':loglib')
 }
