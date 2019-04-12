@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "dev.entao.applog"
+        applicationId "dev.entao.logapp"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
