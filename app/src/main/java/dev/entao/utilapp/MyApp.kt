@@ -1,7 +1,7 @@
 package dev.entao.utilapp
 
 import android.app.Application
-import dev.entao.log.Yog
+import dev.entao.kan.log.Yog
 
 class MyApp : Application() {
 

@@ -1,4 +1,4 @@
-package dev.entao.log
+package dev.entao.kan.log
 
 /**
  * Created by entaoyang@163.com on 2018/11/8.

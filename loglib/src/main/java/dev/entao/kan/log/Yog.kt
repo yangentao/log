@@ -1,4 +1,4 @@
-package dev.entao.log
+package dev.entao.kan.log
 
 import android.content.Context
 import java.io.File
@@ -23,7 +23,12 @@ object Yog {
             ld.mkdirs()
             ld.mkdir()
         }
-        setPrinter(YogTree(LogcatPrinter, YogDir(ld)))
+        setPrinter(
+            YogTree(
+                LogcatPrinter,
+                YogDir(ld)
+            )
+        )
     }
 
     fun setPrinter(p: YogPrinter) {

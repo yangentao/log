@@ -1,4 +1,4 @@
-package dev.entao.log
+package dev.entao.kan.log
 
 import android.util.Log
 
